@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.display-cont {
+    width: 100vw;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(189, 69, 177);
+    gap: 2px;
+    position: relative;
+}
+
+.title {
+    color: white;
+    font-size: 42px;
+    font-weight: 700;
+    text-shadow: 1px 1px 3px black;
+    margin-right: 230px;
+}
+
+.title b {
+    color: rgb(255, 189, 255);
+}
+
+.user-name {
+    color: white;
+    font-size: 22px;
+    margin-left: 200px;
+}
+
+.nav-bar button {
+    height: 100%;
+    padding: 3px 40px;
+    /* border: 3px solid white; */
+    /* border-radius: 9px; */
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    border: none;
+    font-weight: 550;
+    color: white;
+    background-color: inherit;
+    text-decoration: none;
+    transition: all 300ms ease;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.nav-bar button:hover {
+    background-color: rgb(255, 224, 251);
+    color: rgb(192, 0, 172);
+}
+
+.nav-bar button:focus {
+    background-color: white;
+    color: rgb(189, 69, 177);
+}
+
+.ad-cont {
+    width: 100%;
+    display: flex;
+    padding: 50px;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+}
+
+.add-ad {
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+
+    padding: 5px 15px;
+    border-top: 7px solid red;
+    border-right: 6px solid rgb(242, 255, 0);
+    border-bottom: 6px solid rgb(0, 255, 51);
+    border-left: 6px solid blue;
+    border-radius: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.463);
+    transition: all 300ms ease;
+}
+
+.add-ad:hover {
+    box-shadow: 3px 3px 7px 1px rgba(0, 0, 0, 0.463);
+}

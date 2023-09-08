@@ -1,0 +1,110 @@
+.dhome-bottom {
+    flex: 1;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.doc-cont {
+    width: 80%;
+    height: 100%;
+
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: stretch;
+    align-items: center;
+}
+
+.sq {
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.23);
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+
+.sq:hover {
+    background-color: rgba(0, 0, 0, 0.781);
+    color: white;
+}
+
+.sq:hover .my-img img {
+    outline: 4px solid rgba(255, 255, 255, 0.744);
+}
+
+.sq1,
+.sq2 {
+    width: calc(50% - 30px);
+    height: 50%;
+    justify-content: space-between;
+}
+
+.sq2 {
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    font-size: 25px;
+}
+
+.sq3,
+.sq4,
+.sq5 {
+    width: calc(34% - 30px);
+    height: 50%;
+}
+
+.sq3,
+.sq4,
+.sq5 {
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    font-size: 30px;
+}
+
+.my-rating {
+    font-size: 90px;
+    font-weight: 700;
+}
+
+.my-review {
+    font-size: 25px;
+}
+
+.my-img,
+.my-desc {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    outline: 4px solid rgba(0, 0, 0, 0.3);
+    transition: all 300ms ease;
+}
+
+.my-desc {
+    flex-direction: column;
+}
+
+.my-name {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.my-location {
+    font-size: 20px;
+}

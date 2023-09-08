@@ -1,0 +1,157 @@
+.login-cont {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.login-right {
+    height: 100%;
+    width: 500px;
+    background-color: #043a31;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+}
+
+.login-card {
+    min-height: 60%;
+    width: 95%;
+    border-radius: 11px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 30px 25px;
+}
+
+.logo {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.greet {
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.role-switch {
+    width: 80%;
+    height: 33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.doc-switch,
+.pat-switch {
+    width: 48%;
+    height: 100%;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    color: #043a31;
+}
+
+.role-now {
+    background-color: rgb(215, 255, 233);
+    border: 2px solid #043a31;
+}
+
+.email,
+.password,
+.name {
+    width: 80%;
+    height: 33px;
+}
+
+.email input,
+.password input,
+.name input {
+    cursor: pointer;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: 2px solid rgb(238, 238, 238);
+    padding: 0 40px;
+    font-size: 19px;
+}
+
+.name input {
+    background: url("./user.png") no-repeat left;
+    background-position: 3px;
+    background-size: 25px;
+    background-color: #ffffff;
+}
+
+.email input {
+    background: url("./message.png") no-repeat left;
+    background-position: 5px;
+    background-size: 22px;
+    background-color: #ffffff;
+}
+
+.password input {
+    background: url("./lock.png") no-repeat left;
+    background-position: 5px;
+    background-size: 22px;
+    background-color: #ffffff;
+}
+
+.toggle {
+    margin: 20px 0;
+    font-weight: 400;
+}
+
+.toggle b {
+    color: rgb(0, 149, 218);
+}
+
+.login-bttn {
+    width: 80%;
+    padding: 5px 0;
+    background-color: #eb001b;
+    color: white;
+    font-size: 17px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 3px 3px 0 0px #3800069e;
+    transition: all 300ms ease;
+}
+
+.login-bttn:hover {
+    box-shadow: 1px 1px 0 0px #3800069e;
+}
+
+
+
+.login-left {
+    height: 100%;
+    flex: 1;
+}
+
+.login-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

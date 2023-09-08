@@ -1,0 +1,165 @@
+.book-cont {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.book-bottom {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    padding: 30px;
+}
+
+.book-left {
+    height: 100%;
+    width: 380px;
+}
+
+.book-right {
+    height: 100%;
+    flex: 1;
+    border: 2px solid rgba(0, 0, 0, 0.23);
+    /* border-radius: 11px; */
+}
+
+.row1 {
+    width: 100%;
+    height: 150px;
+    padding: 0 30px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.23);
+    display: flex;
+    align-items: center;
+
+    gap: 50px;
+}
+
+.r1c1 {
+    height: 100px;
+    width: 100px;
+}
+
+.r1c1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.r1c2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.r1c3 {
+    height: 50px;
+    width: 300px;
+}
+
+.r1c3 input {
+    cursor: pointer;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: 2px solid #043a31;
+    padding: 0 40px;
+    font-size: 19px;
+}
+
+.book-bttn {
+    margin-left: auto;
+    margin-right: 0;
+    width: 100px;
+    padding: 3px 0;
+    color: #043a31;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    border: 2px solid #043a31;
+    box-shadow: 3px 3px 0 0px #043a31;
+    transition: all 300ms ease;
+}
+
+.book-bttn:hover {
+    box-shadow: 1px 1px 0 0px #043a31;
+}
+
+.row2 {
+    padding: 30px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.23);
+}
+
+.chosen-day {
+    text-decoration: underline;
+}
+
+.all-slots {
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.slot-box,
+.selected-box {
+    padding: 3px 20px;
+    background-color: aliceblue;
+    border: 2px solid #043a31;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.disabled-box {
+    padding: 5px 25px;
+    background-color: rgb(229, 229, 229);
+    border: 2px solid gray;
+    color: gray;
+    border-radius: 5px;
+}
+
+.selected-box {
+    background-color: rgb(153, 255, 199);
+    border: 2px solid #043a31;
+}
+
+.row3 {
+    padding: 30px;
+}
+
+.invoice {
+    text-decoration: underline;
+}
+
+.invoice-cont {
+    height: 120px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.invoice1,
+.invoice2,
+.invoice3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    width: 500px;
+    padding: 0 50px;
+}
+
+.invoice3 {
+    border-top: 2px solid #043a31;
+}
+
+.invoice3 b {
+    color: #043a31;
+    font-size: 21px;
+}
